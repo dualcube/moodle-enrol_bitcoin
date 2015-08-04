@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<libraries>
+  <library>
+    <location>coinbase-sdk/lib</location>
+    <name>Coinbase SDK</name>
+    <license>MIT</license>
+  </library>
+</libraries>
