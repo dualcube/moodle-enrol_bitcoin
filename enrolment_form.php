@@ -19,10 +19,10 @@
  *
  * @package    enrol_bitcoin
  * @copyright  2015 Dualcube, Moumita Ray, Parthajeet Chakraborty
- * @license    MIT
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
 require_once("coinbase-sdk/lib/Coinbase.php");
+GLOBAl $SESSION;
 
 $apikey = $this->get_config('apikey');
 $apisecret = $this->get_config('apisecret');
@@ -31,8 +31,8 @@ $clientsecret = $this->get_config('clientsecret');
 $redirecturi = $this->get_config('redirecturi');
 $invoice = date('YmdHis');
 
-$_SESSION['sequence'] = $sequence = rand(1, 1000);
-$_SESSION['timestamp'] = $timestamp = time();
+$SESSION->sequence = $sequence = rand(1, 1000);
+$SESSION->timestamp = $timestamp = time();
 $hash = md5($sequence.$timestamp);
 
 $custom = $instance->courseid.'-'.$USER->id.'-'.$instance->id.'-'.$context->id.'-'.$hash;
@@ -47,13 +47,15 @@ $description = $instancename.' '.get_string("cost").': '.$instance->currency.' '
 <p>&nbsp;</p>
 <p>
 <?php
+$code = optional_param('code', null, PARAM_RAW);
 $coinbaseoauth = new Coinbase_OAuth($clientid, $clientsecret, $redirecturi);
 $oauthurl = $coinbaseoauth->createAuthorizeUrl("user+balance");
 $token = '';
-$_SESSION['callback'] = $CFG->wwwroot.'/enrol/index.php?id='.$instance->courseid;
-if (isset($_GET['code'])) {
-    $post = "grant_type=authorization_code&code=".$_GET['code'].
-    "&redirect_uri=".$redirecturi."&client_id=".$clientid."&client_secret=".$clientsecret;
+
+$SESSION->callback = $CFG->wwwroot.'/enrol/index.php?id='.$instance->courseid;
+if (!empty($code)) {
+    $post = "grant_type=authorization_code&code=".$code."&redirect_uri=".$redirecturi.
+    "&client_id=".$clientid."&client_secret=".$clientsecret;
     $curl = curl_init();
     curl_setopt($curl, CURLOPT_POST, 1);
     curl_setopt($curl, CURLOPT_POSTFIELDS, $post);

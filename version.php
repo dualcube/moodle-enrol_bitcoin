@@ -19,7 +19,7 @@
  *
  * @package    enrol_bitcoin
  * @copyright  2015 Dualcube, Moumita Ray, Parthajeet Chakraborty
- * @license    MIT
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();

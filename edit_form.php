@@ -19,7 +19,7 @@
  *
  * @package    enrol_bitcoin
  * @copyright  2015 Dualcube, Moumita Ray, Parthajeet Chakraborty
- * @license    MIT
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
@@ -28,7 +28,7 @@ require_once($CFG->libdir.'/formslib.php');
 /**
  * Sets up moodle edit form class methods.
  * @copyright  2015 Dualcube, Moumita Ray, Parthajeet Chakraborty
- * @license    MIT
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class enrol_bitcoin_edit_form extends moodleform {
     /**

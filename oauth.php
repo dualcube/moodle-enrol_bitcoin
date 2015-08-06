@@ -19,12 +19,14 @@
  *
  * @package    enrol_bitcoin
  * @copyright  2015 Dualcube, Moumita Ray, Parthajeet Chakraborty
- * @license    MIT
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 require('../../config.php');
-if (isset($_GET['code'])) {
-    header("location: ".$_SESSION['callback'].'&code='.$_GET['code']); die;
+GLOBAL $SESSION;
+$code = optional_param('code', null, PARAM_RAW);
+if (!empty($code)) {
+    header("location: ".$SESSION->callback.'&code='.$code); die;
 } else {
-    header("location: ".$_SESSION['callback'].'&code=0'); die;
+    header("location: ".$SESSION->callback.'&code=0'); die;
 }

@@ -22,7 +22,7 @@
  *
  * @package    enrol_bitcoin
  * @copyright  2015 Dualcube, Moumita Ray, Parthajeet Chakraborty
- * @license    MIT
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 // Disable moodle specific debug messages and any errors in output,
@@ -35,27 +35,23 @@ require_once($CFG->libdir.'/eventslib.php');
 require_once($CFG->libdir.'/enrollib.php');
 require_once($CFG->libdir . '/filelib.php');
 
-if (empty($_GET)) {
+GLOBAL $SESSION;
+$responsearray = clean_param_array($_GET['order'], PARAM_RAW, true);
+
+if (empty($responsearray)) {
     print_error("Sorry, you can not use the script that way."); die;
 }
 
-$responsearray = array();
-
-foreach ($_GET as $key => $value) {
-    $req .= "&$key=".urlencode($value);
-    $responsearray[$key] = $value;
-}
-
-$arraycourseinstance = explode('-', $responsearray['order']['custom']);
+$arraycourseinstance = explode('-', $responsearray['custom']);
 if (empty($arraycourseinstance) || count($arraycourseinstance) < 5) {
     print_error("Received an invalid payment notification!! (Fake payment?)"); die;
 }
 
-if (! $user = $DB->get_record("user", array("id" => $arraycourseinstance[1]))) {
+if (! $user = $DB->get_record("user", array("id" => $arraycourseinstance[1]), MUST_EXIST)) {
     print_error("Not a valid user id"); die;
 }
 
-if (! $course = $DB->get_record("course", array("id" => $arraycourseinstance[0]))) {
+if (! $course = $DB->get_record("course", array("id" => $arraycourseinstance[0]), MUST_EXIST)) {
     print_error("Not a valid course id"); die;
 }
 
@@ -67,25 +63,25 @@ if (! $plugininstance = $DB->get_record("enrol", array("id" => $arraycourseinsta
     print_error("Not a valid instance id"); die;
 }
 
-$checkhash = md5($_SESSION['sequence'].$_SESSION['timestamp']);
+$checkhash = md5($SESSION->sequence.$SESSION->timestamp);
 if ($arraycourseinstance[4] != $checkhash) {
     print_error("We can't validate your transaction. Please try again!!"); die;
 }
 
 $enrolbitcoin = $userenrolments = $roleassignments = new stdClass();
 
-$enrolbitcoin->item_name = $responsearray['order']['button']['name'];
+$enrolbitcoin->item_name = $responsearray['button']['name'];
 $enrolbitcoin->courseid = $arraycourseinstance[0];
 $enrolbitcoin->userid = $arraycourseinstance[1];
 $enrolbitcoin->instanceid = $arraycourseinstance[2];
-$enrolbitcoin->amount = $responsearray['order']['total_native']['cents'];
-$enrolbitcoin->currency = $responsearray['order']['total_native']['currency_iso'];
-$enrolbitcoin->payment_status = $responsearray['order']['status'];
-$enrolbitcoin->transactionid = $responsearray['order']['transaction']['id'];
+$enrolbitcoin->amount = $responsearray['total_native']['cents'];
+$enrolbitcoin->currency = $responsearray['total_native']['currency_iso'];
+$enrolbitcoin->payment_status = $responsearray['status'];
+$enrolbitcoin->transactionid = $responsearray['transaction']['id'];
 $enrolbitcoin->timeupdated = time();
 /* Inserting value to enrol_bitcoin table */
 $ret1 = $DB->insert_record("enrol_bitcoin", $enrolbitcoin, false);
-if ($responsearray['order']['status'] == 'completed') {
+if ($responsearray['status'] == 'completed') {
     /* Inserting value to user_enrolments table */
     $userenrolments->status = 0;
     $userenrolments->enrolid = $arraycourseinstance[2];

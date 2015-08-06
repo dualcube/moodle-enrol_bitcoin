@@ -1,0 +1,308 @@
+[28-Jul-2015 06:54:42 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[28-Jul-2015 06:54:42 America/New_York] Default exception handler: error/Sorry, you can not use the script that way. Debug: 
+Error code: Sorry, you can not use the script that way.
+$a contents: 
+* line 463 of /lib/setuplib.php: moodle_exception thrown
+* line 39 of /enrol/bitcoin/ipn.php: call to print_error()
+
+[28-Jul-2015 08:03:07 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[28-Jul-2015 08:03:07 America/New_York] Default exception handler: error/Sorry, you can not use the script that way. Debug: 
+Error code: Sorry, you can not use the script that way.
+$a contents: 
+* line 463 of /lib/setuplib.php: moodle_exception thrown
+* line 39 of /enrol/bitcoin/ipn.php: call to print_error()
+
+[28-Jul-2015 09:44:23 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[28-Jul-2015 09:44:23 America/New_York] Default exception handler: error/Sorry, you can not use the script that way. Debug: 
+Error code: Sorry, you can not use the script that way.
+$a contents: 
+* line 463 of /lib/setuplib.php: moodle_exception thrown
+* line 39 of /enrol/bitcoin/ipn.php: call to print_error()
+
+[28-Jul-2015 12:36:17 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[28-Jul-2015 12:36:17 America/New_York] Default exception handler: error/Sorry, you can not use the script that way. Debug: 
+Error code: Sorry, you can not use the script that way.
+$a contents: 
+* line 463 of /lib/setuplib.php: moodle_exception thrown
+* line 39 of /enrol/bitcoin/ipn.php: call to print_error()
+
+[29-Jul-2015 03:56:43 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[29-Jul-2015 03:56:46 America/New_York] Default exception handler: error/Sorry, you can not use the script that way. Debug: 
+Error code: Sorry, you can not use the script that way.
+$a contents: 
+* line 463 of /lib/setuplib.php: moodle_exception thrown
+* line 39 of /enrol/bitcoin/ipn.php: call to print_error()
+
+[29-Jul-2015 06:49:04 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[29-Jul-2015 06:49:04 America/New_York] Default exception handler: error/Sorry, you can not use the script that way. Debug: 
+Error code: Sorry, you can not use the script that way.
+$a contents: 
+* line 463 of /lib/setuplib.php: moodle_exception thrown
+* line 39 of /enrol/bitcoin/ipn.php: call to print_error()
+
+[05-Aug-2015 08:31:44 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[05-Aug-2015 08:32:06 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[05-Aug-2015 08:34:23 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[05-Aug-2015 08:37:08 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[05-Aug-2015 08:43:33 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[05-Aug-2015 08:45:43 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[05-Aug-2015 08:45:43 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/wipdualcube/public_html/moodle/moodle-moumita/enrol/bitcoin/lib.php on line 61
+[05-Aug-2015 08:46:44 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[05-Aug-2015 08:46:44 America/New_York] PHP Strict Standards:  Only variables should be passed by reference in /home/wipdualcube/public_html/moodle/moodle-moumita/enrol/bitcoin/lib.php on line 61
+[05-Aug-2015 08:47:19 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[05-Aug-2015 08:47:42 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[05-Aug-2015 08:48:35 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[05-Aug-2015 08:49:41 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[05-Aug-2015 08:52:01 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[05-Aug-2015 08:53:53 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[05-Aug-2015 08:54:27 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[05-Aug-2015 08:55:31 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[05-Aug-2015 08:55:35 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[05-Aug-2015 08:56:56 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 02:46:46 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 02:47:11 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 02:51:45 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 02:51:46 America/New_York] Debugging: Invalid array parameter detected in required_param(): order in 
+* line 640 of /lib/moodlelib.php: call to debugging()
+* line 39 of /enrol/bitcoin/ipn.php: call to optional_param()
+
+[06-Aug-2015 02:51:46 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: clean_param() can not process arrays, please use clean_param_array() instead. Debug: 
+Error code: codingerror
+* line 786 of /lib/moodlelib.php: coding_exception thrown
+* line 689 of /lib/moodlelib.php: call to clean_param()
+* line 642 of /lib/moodlelib.php: call to optional_param_array()
+* line 39 of /enrol/bitcoin/ipn.php: call to optional_param()
+
+[06-Aug-2015 02:58:38 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 02:59:12 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 02:59:12 America/New_York] Debugging: Invalid array parameter detected in required_param(): order in 
+* line 640 of /lib/moodlelib.php: call to debugging()
+* line 39 of /enrol/bitcoin/ipn.php: call to optional_param()
+
+[06-Aug-2015 02:59:12 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: clean_param() can not process arrays, please use clean_param_array() instead. Debug: 
+Error code: codingerror
+* line 786 of /lib/moodlelib.php: coding_exception thrown
+* line 689 of /lib/moodlelib.php: call to clean_param()
+* line 642 of /lib/moodlelib.php: call to optional_param_array()
+* line 39 of /enrol/bitcoin/ipn.php: call to optional_param()
+
+[06-Aug-2015 02:59:52 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 02:59:52 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: clean_param() can not process arrays, please use clean_param_array() instead. Debug: 
+Error code: codingerror
+* line 786 of /lib/moodlelib.php: coding_exception thrown
+* line 689 of /lib/moodlelib.php: call to clean_param()
+* line 39 of /enrol/bitcoin/ipn.php: call to optional_param_array()
+
+[06-Aug-2015 03:02:03 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:02:03 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 1 passed to clean_param_array() must be of the type array, string given, called in [dirroot]/enrol/bitcoin/ipn.php on line 39 and defined
+Error code: codingerror
+* line 393 of /lib/setuplib.php: coding_exception thrown
+* line 751 of /lib/moodlelib.php: call to default_error_handler()
+* line 39 of /enrol/bitcoin/ipn.php: call to clean_param_array()
+
+[06-Aug-2015 03:02:09 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:02:09 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 1 passed to clean_param_array() must be of the type array, string given, called in [dirroot]/enrol/bitcoin/ipn.php on line 39 and defined
+Error code: codingerror
+* line 393 of /lib/setuplib.php: coding_exception thrown
+* line 751 of /lib/moodlelib.php: call to default_error_handler()
+* line 39 of /enrol/bitcoin/ipn.php: call to clean_param_array()
+
+[06-Aug-2015 03:02:58 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:07:57 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:07:57 America/New_York] PHP Warning:  Missing argument 2 for required_param_array(), called in /home/wipdualcube/public_html/moodle/moodle-moumita/enrol/bitcoin/ipn.php on line 39 and defined in /home/wipdualcube/public_html/moodle/moodle-moumita/lib/moodlelib.php on line 577
+[06-Aug-2015 03:07:57 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: required_param_array() requires $parname and $type to be specified (parameter: order) Debug: 
+Error code: codingerror
+* line 579 of /lib/moodlelib.php: coding_exception thrown
+* line 39 of /enrol/bitcoin/ipn.php: call to required_param_array()
+
+[06-Aug-2015 03:08:32 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:08:32 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: clean_param() can not process arrays, please use clean_param_array() instead. Debug: 
+Error code: codingerror
+* line 786 of /lib/moodlelib.php: coding_exception thrown
+* line 599 of /lib/moodlelib.php: call to clean_param()
+* line 39 of /enrol/bitcoin/ipn.php: call to required_param_array()
+
+[06-Aug-2015 03:14:03 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:14:03 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: clean_param() can not process arrays, please use clean_param_array() instead. Debug: 
+Error code: codingerror
+* line 786 of /lib/moodlelib.php: coding_exception thrown
+* line 689 of /lib/moodlelib.php: call to clean_param()
+* line 39 of /enrol/bitcoin/ipn.php: call to optional_param_array()
+
+[06-Aug-2015 03:14:34 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:14:34 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 1 passed to clean_param_array() must be of the type array, string given, called in [dirroot]/enrol/bitcoin/ipn.php on line 39 and defined
+Error code: codingerror
+* line 393 of /lib/setuplib.php: coding_exception thrown
+* line 751 of /lib/moodlelib.php: call to default_error_handler()
+* line 39 of /enrol/bitcoin/ipn.php: call to clean_param_array()
+
+[06-Aug-2015 03:16:28 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:16:28 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: optional_param requires $parname, $default + $type to be specified (parameter: order) Debug: 
+Error code: codingerror
+* line 624 of /lib/moodlelib.php: coding_exception thrown
+* line 40 of /enrol/bitcoin/ipn.php: call to optional_param()
+
+[06-Aug-2015 03:18:00 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:18:00 America/New_York] Debugging: Invalid array parameter detected in required_param(): order in 
+* line 640 of /lib/moodlelib.php: call to debugging()
+* line 40 of /enrol/bitcoin/ipn.php: call to optional_param()
+
+[06-Aug-2015 03:18:00 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: clean_param() can not process arrays, please use clean_param_array() instead. Debug: 
+Error code: codingerror
+* line 786 of /lib/moodlelib.php: coding_exception thrown
+* line 689 of /lib/moodlelib.php: call to clean_param()
+* line 642 of /lib/moodlelib.php: call to optional_param_array()
+* line 40 of /enrol/bitcoin/ipn.php: call to optional_param()
+
+[06-Aug-2015 03:18:31 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:18:31 America/New_York] Debugging: Invalid array parameter detected in required_param(): order in 
+* line 640 of /lib/moodlelib.php: call to debugging()
+* line 40 of /enrol/bitcoin/ipn.php: call to optional_param()
+
+[06-Aug-2015 03:18:31 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: clean_param() can not process arrays, please use clean_param_array() instead. Debug: 
+Error code: codingerror
+* line 786 of /lib/moodlelib.php: coding_exception thrown
+* line 689 of /lib/moodlelib.php: call to clean_param()
+* line 642 of /lib/moodlelib.php: call to optional_param_array()
+* line 40 of /enrol/bitcoin/ipn.php: call to optional_param()
+
+[06-Aug-2015 03:18:38 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:18:38 America/New_York] Debugging: Invalid array parameter detected in required_param(): order in 
+* line 640 of /lib/moodlelib.php: call to debugging()
+* line 40 of /enrol/bitcoin/ipn.php: call to optional_param()
+
+[06-Aug-2015 03:18:38 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: clean_param() can not process arrays, please use clean_param_array() instead. Debug: 
+Error code: codingerror
+* line 786 of /lib/moodlelib.php: coding_exception thrown
+* line 689 of /lib/moodlelib.php: call to clean_param()
+* line 642 of /lib/moodlelib.php: call to optional_param_array()
+* line 40 of /enrol/bitcoin/ipn.php: call to optional_param()
+
+[06-Aug-2015 03:19:21 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:19:21 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: optional_param_array requires $parname, $default + $type to be specified (parameter: order) Debug: 
+Error code: codingerror
+* line 667 of /lib/moodlelib.php: coding_exception thrown
+* line 40 of /enrol/bitcoin/ipn.php: call to optional_param_array()
+
+[06-Aug-2015 03:22:34 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:22:35 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: clean_param() can not process arrays, please use clean_param_array() instead. Debug: 
+Error code: codingerror
+* line 786 of /lib/moodlelib.php: coding_exception thrown
+* line 689 of /lib/moodlelib.php: call to clean_param()
+* line 40 of /enrol/bitcoin/ipn.php: call to optional_param_array()
+
+[06-Aug-2015 03:23:21 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:23:38 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:24:16 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:24:42 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:30:14 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:30:14 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: clean_param() can not process arrays, please use clean_param_array() instead. Debug: 
+Error code: codingerror
+* line 786 of /lib/moodlelib.php: coding_exception thrown
+* line 689 of /lib/moodlelib.php: call to clean_param()
+* line 40 of /enrol/bitcoin/ipn.php: call to optional_param_array()
+
+[06-Aug-2015 03:30:34 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:30:34 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: clean_param() can not process arrays, please use clean_param_array() instead. Debug: 
+Error code: codingerror
+* line 786 of /lib/moodlelib.php: coding_exception thrown
+* line 689 of /lib/moodlelib.php: call to clean_param()
+* line 40 of /enrol/bitcoin/ipn.php: call to optional_param_array()
+
+[06-Aug-2015 03:32:26 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:32:26 America/New_York] Debugging: Invalid array parameter detected in required_param(): order in 
+* line 640 of /lib/moodlelib.php: call to debugging()
+* line 40 of /enrol/bitcoin/ipn.php: call to optional_param()
+
+[06-Aug-2015 03:32:26 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: clean_param() can not process arrays, please use clean_param_array() instead. Debug: 
+Error code: codingerror
+* line 786 of /lib/moodlelib.php: coding_exception thrown
+* line 689 of /lib/moodlelib.php: call to clean_param()
+* line 642 of /lib/moodlelib.php: call to optional_param_array()
+* line 40 of /enrol/bitcoin/ipn.php: call to optional_param()
+
+[06-Aug-2015 03:33:21 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:33:21 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: clean_param() can not process arrays, please use clean_param_array() instead. Debug: 
+Error code: codingerror
+* line 786 of /lib/moodlelib.php: coding_exception thrown
+* line 689 of /lib/moodlelib.php: call to clean_param()
+* line 40 of /enrol/bitcoin/ipn.php: call to optional_param_array()
+
+[06-Aug-2015 03:34:19 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:34:19 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 1 passed to clean_param_array() must be of the type array, string given, called in [dirroot]/enrol/bitcoin/ipn.php on line 39 and defined
+Error code: codingerror
+* line 393 of /lib/setuplib.php: coding_exception thrown
+* line 751 of /lib/moodlelib.php: call to default_error_handler()
+* line 39 of /enrol/bitcoin/ipn.php: call to clean_param_array()
+
+[06-Aug-2015 03:34:54 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 03:34:55 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 1 passed to clean_param_array() must be of the type array, string given, called in [dirroot]/enrol/bitcoin/ipn.php on line 39 and defined
+Error code: codingerror
+* line 393 of /lib/setuplib.php: coding_exception thrown
+* line 751 of /lib/moodlelib.php: call to default_error_handler()
+* line 39 of /enrol/bitcoin/ipn.php: call to clean_param_array()
+
+[06-Aug-2015 03:37:01 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 05:00:31 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 05:00:31 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: clean_param() can not process arrays, please use clean_param_array() instead. Debug: 
+Error code: codingerror
+* line 786 of /lib/moodlelib.php: coding_exception thrown
+* line 689 of /lib/moodlelib.php: call to clean_param()
+* line 40 of /enrol/bitcoin/ipn.php: call to optional_param_array()
+
+[06-Aug-2015 05:06:13 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 05:06:13 America/New_York] Default exception handler: error/unknownparamtype Debug: 
+Error code: unknownparamtype
+$a contents: Array
+(
+)
+
+* line 463 of /lib/setuplib.php: moodle_exception thrown
+* line 1218 of /lib/moodlelib.php: call to print_error()
+* line 762 of /lib/moodlelib.php: call to clean_param()
+* line 757 of /lib/moodlelib.php: call to clean_param_array()
+* line 757 of /lib/moodlelib.php: call to clean_param_array()
+* line 40 of /enrol/bitcoin/ipn.php: call to clean_param_array()
+
+[06-Aug-2015 05:07:06 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 05:09:29 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 05:09:29 America/New_York] PHP Warning:  Illegal offset type in isset or empty in /home/wipdualcube/public_html/moodle/moodle-moumita/lib/moodlelib.php on line 582
+[06-Aug-2015 05:09:29 America/New_York] PHP Warning:  Illegal offset type in isset or empty in /home/wipdualcube/public_html/moodle/moodle-moumita/lib/moodlelib.php on line 584
+[06-Aug-2015 05:09:29 America/New_York] Default exception handler: A required parameter ({$a}) was missing Debug: 
+Error code: missingparam
+* line 463 of /lib/setuplib.php: moodle_exception thrown
+* line 587 of /lib/moodlelib.php: call to print_error()
+* line 41 of /enrol/bitcoin/ipn.php: call to required_param_array()
+
+[06-Aug-2015 05:10:21 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 05:10:21 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: clean_param() can not process arrays, please use clean_param_array() instead. Debug: 
+Error code: codingerror
+* line 786 of /lib/moodlelib.php: coding_exception thrown
+* line 599 of /lib/moodlelib.php: call to clean_param()
+* line 41 of /enrol/bitcoin/ipn.php: call to required_param_array()
+
+[06-Aug-2015 05:11:07 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 05:11:08 America/New_York] PHP Warning:  urlencode() expects parameter 1 to be string, array given in /home/wipdualcube/public_html/moodle/moodle-moumita/enrol/bitcoin/ipn.php on line 48
+[06-Aug-2015 05:11:08 America/New_York] PHP Notice:  Undefined variable: req in /home/wipdualcube/public_html/moodle/moodle-moumita/enrol/bitcoin/ipn.php on line 48
+[06-Aug-2015 05:11:08 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 06:02:18 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 06:02:32 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 06:02:32 America/New_York] PHP Notice:  Undefined index: order in /home/wipdualcube/public_html/moodle/moodle-moumita/enrol/bitcoin/ipn.php on line 45
+[06-Aug-2015 06:02:32 America/New_York] Default exception handler: error/Received an invalid payment notification!! (Fake payment?) Debug: 
+Error code: Received an invalid payment notification!! (Fake payment?)
+$a contents: 
+* line 463 of /lib/setuplib.php: moodle_exception thrown
+* line 47 of /enrol/bitcoin/ipn.php: call to print_error()
+
+[06-Aug-2015 06:03:46 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 06:04:01 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 06:04:01 America/New_York] PHP Notice:  Undefined index: order in /home/wipdualcube/public_html/moodle/moodle-moumita/enrol/bitcoin/ipn.php on line 45
+[06-Aug-2015 06:04:01 America/New_York] Default exception handler: error/Received an invalid payment notification!! (Fake payment?) Debug: 
+Error code: Received an invalid payment notification!! (Fake payment?)
+$a contents: 
+* line 463 of /lib/setuplib.php: moodle_exception thrown
+* line 47 of /enrol/bitcoin/ipn.php: call to print_error()
+
+[06-Aug-2015 06:07:52 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 06:08:13 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
+[06-Aug-2015 06:08:13 America/New_York] PHP Warning:  Module 'zip' already loaded in Unknown on line 0
