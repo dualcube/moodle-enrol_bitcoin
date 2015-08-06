@@ -23,9 +23,11 @@
  */
 
 require('../../config.php');
-GLOBAL $SESSION;
+GLOBAL $SESSION, $CFG;
 $code = optional_param('code', null, PARAM_RAW);
 if (!empty($code)) {
+    $code = strip_tags($code);
+    $code = filter_var($code, FILTER_SANITIZE_STRING);
     header("location: ".$SESSION->callback.'&code='.$code); die;
 } else {
     header("location: ".$SESSION->callback.'&code=0'); die;
