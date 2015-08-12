@@ -23,7 +23,7 @@
  */
 
 require('../../config.php');
-GLOBAL $SESSION, $CFG;
+
 $code = optional_param('code', null, PARAM_RAW);
 if (!empty($code)) {
     $code = strip_tags($code);
