@@ -35,7 +35,6 @@ require_once($CFG->libdir.'/eventslib.php');
 require_once($CFG->libdir.'/enrollib.php');
 require_once($CFG->libdir . '/filelib.php');
 
-GLOBAL $SESSION;
 $responsearray = clean_param_array($_GET['order'], PARAM_RAW, true);
 
 if (empty($responsearray)) {
