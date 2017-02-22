@@ -24,7 +24,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2015061801;
+$plugin->version   = 2015061802;
 $plugin->requires  = 2013051401;
 $plugin->component = 'enrol_bitcoin';
 $plugin->maturity  = MATURITY_STABLE;
