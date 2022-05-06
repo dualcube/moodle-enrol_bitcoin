@@ -18,15 +18,15 @@
  * Bitcoin enrolment plugin version specification.
  *
  * @package    enrol_bitcoin
- * @copyright  2015 Dualcube, Moumita Ray, Parthajeet Chakraborty
+ * @copyright  2022 Dualcube
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2015061802;
+$plugin->version   = 2022050602;
 $plugin->requires  = 2013051401;
 $plugin->component = 'enrol_bitcoin';
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '2.5 (Build: 20150618)';
+$plugin->release   = '2.5.1 (Build: 20220506)';
 $plugin->cron      = 60;
